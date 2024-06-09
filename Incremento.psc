@@ -6,5 +6,13 @@
 Algoritmo Incremento
 	
 	
+	//declaracion de variables para contador
+	definir ContadorHasta Como Entero
+	definir ContadorMientras_Que Como Entero
+	definir contadorMientras Como Entero
+	definir limite Como Entero
+	
+	
+	
 	
 FinAlgoritmo
