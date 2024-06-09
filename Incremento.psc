@@ -8,11 +8,23 @@ Algoritmo Incremento
 	
 	//declaracion de variables para contador
 	definir ContadorHasta Como Entero
-	definir ContadorMientras_Que Como Entero
-	definir contadorMientras Como Entero
+
 	definir limite Como Entero
 	
+	//iguales variables a cero 
+	ContadorHasta = 0
+	limite=20
 	
+	
+	Repetir
+		ContadorHasta=ContadorHasta+2
+	Escribir  ContadorHasta
+	
+	Hasta Que ContadorHasta>=limite
+	Escribir "Conteo Finalizado"
+
+	
+
 	
 	
 FinAlgoritmo
