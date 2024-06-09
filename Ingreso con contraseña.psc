@@ -5,5 +5,16 @@
 Algoritmo sin_titulo
 
 	
+	Definir password Como Caracter
+	Definir intento Como Caracter
+	
+	password = "IntroWeb2024"
+	
+	Repetir
+		Escribir "Ingrese la clave para ingresar"
+		Leer intento
+		
+	Hasta Que intento = password
+	Escribir "*************Acceso Concedido***********"
 	
 FinAlgoritmo
