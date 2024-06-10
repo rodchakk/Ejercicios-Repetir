@@ -9,7 +9,23 @@
 
 Algoritmo sin_titulo
 	
-	definir contador Como Entero
+	definir arreglo Como Entero
+	Definir ContadorMenos50 Como Entero
+	Definir contadorMas70 Como Entero
+	Definir totalpiezas Como Entero
+	Definir PesoPieza Como Entero
+	
+	ContadorMenos50=0
+	contadorMas70 = 0
+	totalpiezas=0
+	
+	
+	Repetir
+		Escribir "Ingrese el peso de la pieza o presione 0 para salir"
+		Leer PesoPieza
+		
+	Hasta Que PesoPieza=0
+	Escribir "Usted ha salido del sistema"
 
 	
 	
