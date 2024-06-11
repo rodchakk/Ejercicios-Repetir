@@ -45,13 +45,13 @@ Algoritmo sin_titulo
 		
 	Hasta Que PesoPieza=0
 	
-	contadorTotal= ContadorMenos50 + contadorMas70 + piezaFueraRango
+	contadorTotal= ContadorMenos50 + contadorMas70 + piezaFueraRango -1
 	
 	
 	
 	Escribir "Piezas menos de 50 " ContadorMenos50
 	Escribir "piezas mas de 70 " contadorMas70
-	Escribir "Piezas fuera de rango" piezaFueraRango
+	Escribir "Piezas fuera de rango " piezaFueraRango
 	Escribir "Piezas totales " contadorTotal
 
 	
