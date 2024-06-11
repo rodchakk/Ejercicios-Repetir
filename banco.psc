@@ -18,10 +18,14 @@ Algoritmo banco
 	definir opc Como Entero
 	Definir deposito Como Real
 	Definir retiro Como Real
+	Definir contadorDepositos Como Entero
+	Definir contadorRetiros Como Entero
+	Definir transaciones Como Real
 	
 	
 	cuenta = 2000
-	
+	contadorDepositos=0
+	contadorRetiros = 0
 	
 
 	
@@ -37,12 +41,14 @@ Algoritmo banco
 				cuenta = cuenta + deposito
 				Escribir "Se deposito la cantidad de L" deposito " en su cuenta"
 				Escribir "Su nuevo saldo es L" cuenta " "
+				contadorDepositos = contadorDepositos +1
 				
 			2:
 				Escribir "Ingrese la cantidad que desea retirar: "
 				Leer retiro
 				cuenta=cuenta-retiro
 				Escribir "Su nuevo saldo es L" cuenta
+				contadorRetiros = contadorRetiros +1
 				
 				
 			De Otro Modo:
@@ -52,6 +58,13 @@ Algoritmo banco
 		
 		
 	Hasta Que cuenta <= 0
+	
+	
+	transaciones = contadorDepositos + contadorRetiros
+	Escribir " Total Depositado L" deposito 
+	Escribir "Total Retirado L" retiro 
+	Escribir "Total Transaciones: " transaciones
+	
 	
 
 	
